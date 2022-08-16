@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1816748270036198587
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SeaMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: b0bf095a5e093274680e14f04963114f,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Displacement:
+        m_Texture: {fileID: 2800000, guid: ff8e08538b65ad9479403db433ecb774, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 28f7fe6327e8b204496bfab3191c85e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Depth_Distance: 1
+    - _Depth_Strangeth: 1
+    - _DisplacementStrenght: 0.2
+    - _Displacement_Strenght: 0.3
+    - _Normal_Strenght: 1
+    - _Normal_Tilling: 50
+    - _PanSpeed: 0.02
+    - _Pan_Speed: 0.01
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RefractStrenght: 1
+    - _WaveHeight: 0.008
+    - _Wave_Height: 4
+    m_Colors:
+    - _Bottom_Color: {r: 0.11690103, g: 0.33059445, b: 0.6698113, a: 0}
+    - _Top_Color: {r: 0.03702387, g: 0.54477185, b: 0.6037736, a: 0}
+  m_BuildTextureStacks: []

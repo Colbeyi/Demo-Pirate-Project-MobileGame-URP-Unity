@@ -1,0 +1,20 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      5
+    ],
+    "SourceCsetId": 6,
+    "DestinationCsetId": 5,
+    "FileConflicts": [
+      {
+        "Path": "/Assets/Scenes/NewSeaScene.unity",
+        "ItemId": 959,
+        "ParentItemId": 557,
+        "BaseRevId": 1701,
+        "SourceRevId": 3453,
+        "DestinationRevId": 3253
+      }
+    ]
+  }
+]

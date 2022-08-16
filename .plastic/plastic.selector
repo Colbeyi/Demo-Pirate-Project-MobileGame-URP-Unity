@@ -1,0 +1,4 @@
+repository "pirate-ship-game@SimurgifyTech@cloud"
+  path "/"
+    br "/main"
+    co "/main"
